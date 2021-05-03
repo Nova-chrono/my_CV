@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: #c4c4c4;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.cv_wrapper {
+    position: relative;
+    width: 800px;
+    margin: 50px auto;
+	background: #fff;
+	padding-bottom: 50px;
+}
+
+.cv_wrapper .cv_title {
+    color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 16px;
+	margin-bottom: 10px;
+	letter-spacing: 4px;
+}
+
+.cv_wrapper .cv_contact {
+    padding-top: 50px;
+    background: #26252d;
+    color: #fff;
+}
+
+.cv_wrapper .cv_contact .name {
+    font-size: 30px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 10px;
+	letter-spacing: 4px;
+    text-align: center;
+}
+.cv_wrapper .cv_contact .address {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.cv_wrapper .cv_contact .cv_addresses {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+}
+
+.cv_wrapper .cv_contact a {
+    color: rgb(2, 139, 139);
+    justify-content: space-between;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.cv_wrapper .cv_title {
+    color: #000;
+    padding-left: 30px;
+    margin: 20px;
+}
+
+.cv_wrapper .cv_info {
+    padding: 0 40px;
+}
+
+.cv_list ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 60px;
+}
+
+.cv_wrapper .cv_data {
+    display: flex;
+    padding: 10px;
+}
+
+.cv_info .cv_data .year {
+    justify-content: left;
+    padding: auto;
+    font-weight: bold;
+    width: 25%;
+}
+
+.cv_info .cv_data .content {
+    padding-left: 70px;
+    justify-content: right;
+}
+
+.top {
+    font-weight: bold;
+}
+
+.bottom {
+    font-style: italic;
+}
